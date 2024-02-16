@@ -20,29 +20,7 @@ namespace CapaPresentacion.WebApi.Controllers
         {
             conf = config;
         }
-
-        [HttpGet]
-        public IEnumerable<object> GetAll(){
-            var personas = new List<object>(){
-                new {
-                    nombre = "Paul Veliz",
-                    estatura = 1.70,
-                    nacionalidad = "MEX"
-                },
-                new {
-                    nombre = "Juan Pedro",
-                    estatura = 1.90,
-                    nacionalidad = "MEX"
-                },
-                new {
-                    nombre = "Juan Perez",
-                    estatura = 1.62,
-                    nacionalidad = "CL"
-                },
-            };
-
-            return personas;
-        }
+        
 
         [HttpPost]
         [AllowAnonymous]
