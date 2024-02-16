@@ -1,2 +1,4 @@
 
 .vs/DigitalBank/config/applicationhost.config
+bin/
+obj/
